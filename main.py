@@ -6,7 +6,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # మీ గూగుల్ వెబ్ యాప్ URL (ఇందాకటి కొత్త లింక్)
-GOOGLE_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbzyTF0A_Vgo_GRUV9Xnic06VvUJNb7jVhMUUTyUbVOMy-sylHLKYrN6dbB66L1L1zmaaw/exec'
+GOOGLE_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbwUxATYX5F8P7ey_ZvWNZaT0emIvrNT80W9aVfJZxo_If8kkBoDnkX87tKnZhpvuzPLxg/exec'
 
 @app.route('/iclock/cdata', methods=['GET', 'POST'])
 def adms_server():
